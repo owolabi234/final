@@ -133,4 +133,64 @@ let count = "Frontend Developer";
 console.log(count.length);
 
 
+//number method
+//Write a statement to convert the number 50 into a string.
+let number = 50;
+console.log(number.toString()); 
+
+/*Write a JavaScript program that:
+Stores the value 45.6789 in a variable.
+Displays the value rounded to 2 decimal places.*/
+let num = 45.6789;
+console.log(num.toFixed(2));
+
+/*Write a program that converts the string "200" into a number and adds 50 to it.*/
+let string = 200;
+let numb = parseInt(string);
+console.log(numb + 50);
+
+/*Create a program that checks if the value "Hello" is a valid number using isNaN().*/
+let value = "Hello";
+console.log(isNaN(value));
+
+/*Write a program that:
+
+Accepts the number 100.5678.
+Displays it in exponential notation.
+Displays it with 3 significant digits.*/
+
+let myNumber = 100.5678;
+console.log(myNumber.toExponential());
+console.log(myNumber.toPrecision(3));
+
+
+//maths method
+//Write a statement to calculate 5 raised to the power of 3.
+console.log(Math.pow(5, 3));
+
+//Write the JavaScript statement that returns the smallest value from the numbers 12, 8, 25, and 3.
+console.log(Math.min(12,8,25,3));
+
+//Write a program that generates a random number between 1 and 10.
+let randomNum = Math.floor(Math.random() * 10) + 1;
+console.log(randomNum);
+
+//Write a program that calculates the square root of 144.
+console.log(Math.sqrt(144));
+
+//Create a program that finds the maximum value in the array: [12, 45, 7, 89, 23]
+let numbers = [12, 45, 7, 89, 23];
+console.log(Math.max(...numbers));
+
+/*Write a program that:
+Stores the value 5.67.
+Rounds it down.
+Rounds it up.
+Rounds it to the nearest whole number.*/
+let program = 5.67;
+console.log(Math.floor(program));
+console.log(Math.ceil(program));
+console.log(Math.round(program));
+
+
 
