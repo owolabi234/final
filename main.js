@@ -193,4 +193,43 @@ console.log(Math.ceil(program));
 console.log(Math.round(program));
 
 
+//if statement
 
+//Write an if statement that checks whether a variable age is greater than or equal to 18.
+
+let age = 18;
+if (age >= 18) {
+  console.log("You are an adult");
+} else {
+  console.log("You are a minor");
+}
+
+// OR
+
+let ages = 16;
+if (ages >= 18) {
+  console.log("You are an adult");
+} else {
+  console.log("You are a minor");
+}
+
+
+/*Write a program that checks whether a student has passed or failed.
+Pass mark = 50
+Score is stored in a variable.*/
+
+let score = 50;
+if (score <= 49) {
+  console.log("You failed");
+} else {
+  console.log("You passed");
+}
+
+//OR
+
+let passMark = 50;
+if (passMark >= 50) {
+  console.log("You failed");
+} else {
+  console.log("You passed");
+}
